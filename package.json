@@ -1,0 +1,28 @@
+{
+    "name": "minions-clients-workspace",
+    "private": true,
+    "version": "0.1.0",
+    "description": "Client profiles built from job interactions, communications, and contracts",
+    "type": "module",
+    "license": "MIT",
+    "author": "Mehdi Nabhani <mehdi@the-mehdi.com> (https://the-mehdi.com)",
+    "workspaces": [
+        "packages/*",
+        "apps/*"
+    ],
+    "scripts": {
+        "build": "pnpm --filter @minions-clients/sdk run build && pnpm --filter @minions-clients/cli run build && pnpm --filter minions-clients-docs run build && pnpm --filter minions-clients-blog run build && pnpm --filter minions-clients-web run build",
+        "deploy:blog": "pnpm --filter minions-clients-blog run build && netlify deploy --dir apps/blog/dist --prod",
+        "deploy:docs": "pnpm --filter minions-clients-docs run build && netlify deploy --dir apps/docs/dist --prod",
+        "deploy:web": "pnpm --filter minions-clients-web run build && netlify deploy --dir apps/web/dist --prod",
+        "test": "pnpm --filter @minions-clients/sdk run test",
+        "lint": "pnpm --filter @minions-clients/sdk run build && pnpm --filter @minions-clients/sdk run lint && pnpm --filter @minions-clients/cli run lint",
+        "deploy": "pnpm run deploy:blog"
+    },
+    "engines": {
+        "node": ">=20"
+    },
+    "devDependencies": {
+        "typescript": "^5.9.3"
+    }
+}
