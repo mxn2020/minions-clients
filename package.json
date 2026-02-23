@@ -1,7 +1,7 @@
 {
     "name": "minions-clients-workspace",
     "private": true,
-    "version": "0.1.0",
+    "version": "0.2.0",
     "description": "Client profiles built from job interactions, communications, and contracts",
     "type": "module",
     "license": "MIT",

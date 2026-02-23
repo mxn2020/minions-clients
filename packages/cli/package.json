@@ -1,6 +1,6 @@
 {
   "name": "@minions-clients/cli",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "CLI for minions-clients — Client profiles built from job interactions, communications, and contracts",
   "license": "MIT",
   "repository": {
