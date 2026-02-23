@@ -1,6 +1,12 @@
 ---
 name: minions-clients
-description: Client profiles built from job interactions, communications, and contracts
+id: OC-0111
+version: 1.0.0
+description: "Client profiles built from job interactions, communications, and contracts"
+category: ai
+subcategory: general
+tags: ["minion", "ai", "general"]
+comments:
 ---
 
 # minions-clients — Agent Skills
