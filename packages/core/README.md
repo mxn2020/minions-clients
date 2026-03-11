@@ -1,3 +1,5 @@
+![CI](https://github.com/mxn2020/@minions-clients/sdk/actions/workflows/ci.yml/badge.svg) ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+
 # @minions-clients/sdk
 
 Client profiles built from job interactions, communications, and contracts

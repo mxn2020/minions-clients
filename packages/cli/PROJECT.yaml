@@ -1,0 +1,8 @@
+name: "@minions-clients/cli"
+project_scope: child
+child_type: cli
+parent_project: minions-clients-workspace
+description: "CLI for minions-clients — Client profiles built from job interactions, communications, and contracts"
+priority: high
+deploy_url: null
+tags: null
