@@ -6,3 +6,4 @@ description: "Client profiles built from job interactions, communications, and c
 priority: high
 deploy_url: null
 tags: null
+category: minion-toolbox
